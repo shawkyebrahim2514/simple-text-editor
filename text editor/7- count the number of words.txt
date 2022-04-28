@@ -1,0 +1,5 @@
+make counter cnt = 0
+take each line with getline function
+separate each word of the getline string and increase cnt by (1) each word
+print cnt
+return to the main  menu

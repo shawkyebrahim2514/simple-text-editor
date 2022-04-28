@@ -1,0 +1,8 @@
+make a ostringstream to store all lowercase content on and then copy it to our file
+
+read each line from the file by fetline function
+loop over each word in the getline string
+put the uppercase word in the ostringstream
+if this line ended, put newline (\n) in the ostringstream
+
+copy all ostringstream to our file

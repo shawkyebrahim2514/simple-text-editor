@@ -1,0 +1,22 @@
+- take from the suer the name of the file
+- if the file exist ==>> print(this file already exists) and open it to read and write
+- if the file does not exist, create this file and print (this is a  new file, i created it for you!)
+
+
+menu choices:
+1- add new text to the end of the file 
+2- display the content of the file
+3- empty the file comtent
+4- encypt the file content
+5- decrtypt the file content
+6- merge another file
+7- count the number of words in the file
+8- count the number of characters in the file
+9- count the number of lines in the file
+10- search for a word in the file
+11- count the number of times a word exists in the file
+12- turn the file content to upper case
+13- turn the file content to lower case
+14- turn file content to 1(th) caps (first letter of each word will be upper case)
+15- save
+16 Exit

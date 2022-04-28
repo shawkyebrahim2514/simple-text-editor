@@ -1,0 +1,5 @@
+D:/FCAI CU/First Year/Second Semester/CS/Assignment 4/Files/text editor/code/cmake-build-debug/CMakeFiles/code.dir
+D:/FCAI CU/First Year/Second Semester/CS/Assignment 4/Files/text editor/code/cmake-build-debug/CMakeFiles/text_managing.dir
+D:/FCAI CU/First Year/Second Semester/CS/Assignment 4/Files/text editor/code/cmake-build-debug/CMakeFiles/all_functions.dir
+D:/FCAI CU/First Year/Second Semester/CS/Assignment 4/Files/text editor/code/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/FCAI CU/First Year/Second Semester/CS/Assignment 4/Files/text editor/code/cmake-build-debug/CMakeFiles/rebuild_cache.dir

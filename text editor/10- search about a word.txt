@@ -1,0 +1,8 @@
+read each line with getline function
+loop over each word in the getline string by istringstream
+store each word in a set ( after convert whole word to lowercase )
+
+take from the user the work he want to search with
+convert this word to lowercase
+if this word exist in the set, print(word was found in the file)
+if this word dows not exist in the set, print(word was nor found in the file)

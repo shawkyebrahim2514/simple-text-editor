@@ -1,0 +1,8 @@
+the first row of the text file will contain:
+[0] the number of lines, [1] the number of words, [2] the number of characters
+
+when load the file content
+---------------------------
+make a set for all lowercase words
+make a map for the repeatation words
+make a ostringstream to put all file content on it

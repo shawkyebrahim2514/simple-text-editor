@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\text_managing.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\text_managing.dir/objects.a @CMakeFiles\text_managing.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\text_managing.dir/objects.a -Wl,--no-whole-archive -o text_managing.exe -Wl,--out-implib,libtext_managing.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\text_managing.dir\linklibs.rsp
