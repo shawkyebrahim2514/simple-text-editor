@@ -1,4 +1,0 @@
-take the name of the other file to append its content to the first file
-if this file does not exist, print(invalid file name), and take the name again
-
-if the file exist append all new file content to the end of teh first file

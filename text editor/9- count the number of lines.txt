@@ -1,2 +1,0 @@
-make a counter cnt = 0
-loop over each line of the file and increase the cnt by (1)

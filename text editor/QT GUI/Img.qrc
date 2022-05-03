@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/sources"/>
+    <qresource prefix="/">
+        <file>sources/design-01.png</file>
+        <file>sources/addfilename.png</file>
+        <file>sources/addtext.png</file>
+        <file>sources/howsave.png</file>
+        <file>sources/searchword.png</file>
+        <file>sources/design-06.png</file>
+        <file>sources/message.png</file>
+        <file>sources/windows icons/decrypticon.png</file>
+        <file>sources/windows icons/deletecontenticon.png</file>
+        <file>sources/windows icons/encrypticon.png</file>
+        <file>sources/windows icons/exiticon.png</file>
+        <file>sources/windows icons/fileaddicon.png</file>
+        <file>sources/windows icons/mergeicon.png</file>
+        <file>sources/windows icons/messageicon.png</file>
+        <file>sources/windows icons/saveicon.png</file>
+        <file>sources/windows icons/showfileicon.png</file>
+        <file>sources/windows icons/showicon.png</file>
+        <file>sources/windows icons/texteditoricon.png</file>
+        <file>sources/windows icons/wordsearchicon.png</file>
+    </qresource>
+</RCC>

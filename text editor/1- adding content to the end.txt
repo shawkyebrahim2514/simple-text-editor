@@ -1,8 +1,0 @@
-we must open the file in the appending mode and add the new text to it
-
-we will take from the user the new text untel he press (ctrl+z)
-
-we will loop and take strings form user
-if he press enter we must append (\n) to this string
-
-if he pressed (ctrl+z) break the loop;

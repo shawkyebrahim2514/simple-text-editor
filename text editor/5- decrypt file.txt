@@ -1,3 +1,0 @@
-opposite of encrypt steps
-shift all ASCII file content character (-1)
-then return to the main menu

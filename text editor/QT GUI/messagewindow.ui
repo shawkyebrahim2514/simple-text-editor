@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>messagewindow</class>
+ <widget class="QDialog" name="messagewindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>406</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1000</width>
+    <height>406</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1000</width>
+    <height>406</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Message</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Img.qrc">
+    <normaloff>:/sources/windows icons/messageicon.png</normaloff>:/sources/windows icons/messageicon.png</iconset>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>406</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Img.qrc">:/sources/message.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="messagearea">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>160</y>
+     <width>881</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+background:transparent;
+border-radius:45px;
+font-size:24px;
+	font: 700 18pt &quot;Segoe UI&quot;;
+color:rgb(86, 73, 135);
+}</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>288</y>
+     <width>201</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background:transparent;
+border-radius:40px;
+color:white;
+}
+QPushButton::hover{
+background:rgba(255, 255, 255, 50);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Img.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,4 +1,0 @@
-read all file content and shift each ascii character by (+1) (even spaces will be encrypted)
-use getline to read each line
-after that
-return to the main menu

@@ -1,3 +1,0 @@
-make counter cnt = 0
-read each line with getline function
-read each line and increase cnt by the value of getline string size

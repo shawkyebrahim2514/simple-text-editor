@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1000</width>
+    <height>750</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1000</width>
+    <height>750</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Text Editor</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Img.qrc">
+    <normaloff>:/sources/windows icons/texteditoricon.png</normaloff>:/sources/windows icons/texteditoricon.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="background">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1000</width>
+      <height>750</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="Img.qrc">:/sources/design-01.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addtext">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>136</y>
+      <width>150</width>
+      <height>93</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background : transparent;
+border-radius:25px;
+}
+
+QPushButton::hover{
+background:rgba(255, 255, 255, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="showfile">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>136</y>
+      <width>150</width>
+      <height>93</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background : transparent;
+border-radius:25px;
+}
+
+QPushButton::hover{
+background:rgba(255, 255, 255, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="emptyfile">
+    <property name="geometry">
+     <rect>
+      <x>425</x>
+      <y>136</y>
+      <width>150</width>
+      <height>93</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background : transparent;
+border-radius:25px;
+}
+
+QPushButton::hover{
+background:rgba(255, 255, 255, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="mergefiles">
+    <property name="geometry">
+     <rect>
+      <x>602</x>
+      <y>136</y>
+      <width>150</width>
+      <height>93</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background : transparent;
+border-radius:25px;
+}
+
+QPushButton::hover{
+background:rgba(255, 255, 255, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="encryptfile">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>258</y>
+      <width>150</width>
+      <height>93</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background : transparent;
+border-radius:25px;
+}
+
+QPushButton::hover{
+background:rgba(255, 255, 255, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="decryptfile">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>258</y>
+      <width>150</width>
+      <height>93</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background : transparent;
+border-radius:25px;
+}
+
+QPushButton::hover{
+background:rgba(255, 255, 255, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="searchfile">
+    <property name="geometry">
+     <rect>
+      <x>425</x>
+      <y>258</y>
+      <width>150</width>
+      <height>93</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background : transparent;
+border-radius:25px;
+}
+
+QPushButton::hover{
+background:rgba(255, 255, 255, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="numberoflines">
+    <property name="geometry">
+     <rect>
+      <x>248</x>
+      <y>378</y>
+      <width>150</width>
+      <height>93</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background : transparent;
+border-radius:25px;
+}
+
+QPushButton::hover{
+background:rgba(255, 255, 255, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="numberofwords">
+    <property name="geometry">
+     <rect>
+      <x>425</x>
+      <y>378</y>
+      <width>150</width>
+      <height>93</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background : transparent;
+border-radius:25px;
+}
+
+QPushButton::hover{
+background:rgba(255, 255, 255, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="numberofchars">
+    <property name="geometry">
+     <rect>
+      <x>603</x>
+      <y>378</y>
+      <width>150</width>
+      <height>93</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background : transparent;
+border-radius:25px;
+}
+
+QPushButton::hover{
+background:rgba(255, 255, 255, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="wordtimes">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>378</y>
+      <width>150</width>
+      <height>93</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background : transparent;
+border-radius:25px;
+}
+
+QPushButton::hover{
+background:rgba(255, 255, 255, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="tolowerfile">
+    <property name="geometry">
+     <rect>
+      <x>248</x>
+      <y>500</y>
+      <width>150</width>
+      <height>93</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background : transparent;
+border-radius:25px;
+}
+
+QPushButton::hover{
+background:rgba(255, 255, 255, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="toupperfile">
+    <property name="geometry">
+     <rect>
+      <x>425</x>
+      <y>500</y>
+      <width>150</width>
+      <height>93</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background : transparent;
+border-radius:25px;
+}
+
+QPushButton::hover{
+background:rgba(255, 255, 255, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="tocapsfile">
+    <property name="geometry">
+     <rect>
+      <x>603</x>
+      <y>500</y>
+      <width>150</width>
+      <height>93</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background : transparent;
+border-radius:25px;
+}
+
+QPushButton::hover{
+background:rgba(255, 255, 255, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="savefile">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>624</y>
+      <width>150</width>
+      <height>93</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background : transparent;
+border-radius:25px;
+}
+
+QPushButton::hover{
+background:rgba(255, 255, 255, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>64</width>
+      <height>64</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exit">
+    <property name="geometry">
+     <rect>
+      <x>249</x>
+      <y>624</y>
+      <width>150</width>
+      <height>93</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background : transparent;
+border-radius:25px;
+}
+
+QPushButton::hover{
+background:rgba(255, 255, 255, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Img.qrc"/>
+ </resources>
+ <connections/>
+</ui>

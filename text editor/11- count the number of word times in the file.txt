@@ -1,8 +1,0 @@
-create a map to store each lowercase word on it with its times in the file
-
-read each line from the file by geline function
-loop over each word in getline string with istringstream
-each word increase it's lowercase state in a map by (1)
-
-take the word from the user that he want to count the number of its times in the file
-convert all characters to lowercase, then print the value of this words from the map
