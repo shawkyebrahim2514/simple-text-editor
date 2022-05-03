@@ -16,11 +16,14 @@ void add_content(){
         c = getch();
         if(c == 13){
             // if the user press enter
+            tmp.push_back('\n');
             cout << '\n';
-        }else if(c == 8 && tmp.size()){
+        }else if(c == 8){
             // if user press backspace
-            tmp.pop_back();
-            wcout << '\b' << ' ' << '\b';
+            if(tmp.size() && tmp.back() != '\n'){
+                tmp.pop_back();
+                wcout << '\b' << ' ' << '\b';
+            }
         }else if(c == 26){
             break;
         }else{
@@ -33,21 +36,24 @@ void add_content(){
 }
 
 void display_content(){
-    separated_line(" Your file context ");
+    separated_line(" Your file content ");
     cout << file_content.str() << '\n';
 }
 
 void empty_content(){
+    separated_line(" File now is empty ");
     update_file_content("");
 }
 
 void encrypt_content(){
+    separated_line(" All content encrypted ");
     string tmp = file_content.str();
     for(auto& val : tmp) val += 1;
     update_file_content(tmp);
 }
 
 void decrypt_content(){
+    separated_line(" All content decrypted ");
     string tmp = file_content.str();
     for(auto& val : tmp) val -= 1;
     update_file_content(tmp);
@@ -66,6 +72,7 @@ void merge_files(){
     fstream new_file;
     new_file.open(new_file_name + ".txt", ios::in);
     file_content << '\n' << new_file.rdbuf();
+    separated_line(" Files are merged ");
 }
 
 // size of file_content contain letters and spaces and new lines ASCII
@@ -136,12 +143,14 @@ void content_to_upper(){
     string tmp = file_content.str();
     transform(tmp.begin(),tmp.end(),tmp.begin(), ::toupper);
     update_file_content(tmp);
+    separated_line(" All characters are converted to uppercase ");
 }
 
 void content_to_lower(){
     string tmp = file_content.str();
     transform(tmp.begin(),tmp.end(),tmp.begin(), ::tolower);
     update_file_content(tmp);
+    separated_line(" All characters are converted to lowercase ");
 }
 
 void content_to_caps(){
@@ -153,6 +162,7 @@ void content_to_caps(){
         }
     }
     update_file_content(tmp);
+    separated_line(" All words are converted to caps ");
 }
 
 void save_file_name(){
@@ -171,4 +181,5 @@ void save_file_name(){
         cin >> file_name;
     }
     save_file();
+    separated_line(" File has been saved ");
 }

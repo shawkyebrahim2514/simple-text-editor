@@ -20,7 +20,6 @@ void show_menu(){
     cout << "15- Save\n";
     cout << "16- Exit\n";
 }
-
 void take_choice(){
     int choice;
     cout << "Enter your choice number: ";
